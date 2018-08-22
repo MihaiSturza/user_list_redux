@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0 !important;
+  font-family: Roboto, sans-serif;
+}
+
+.app {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  min-height: 100vh;
+}
+
+.add-btn {
+ float: right;
+ right: 40px;
+ top: 50%;
+ transform: translateY(-50%);
+
+}
+
+.header {
+   height: 80px;
+   position: relative;
+   border-bottom: 1px solid gray;
+}
+
+.title {
+  display: block;
+  position: absolute;
+  letter-spacing: .15rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
+
+
+.modal-title {
+  height: 70px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: .15rem;
+  font-size: 1.5rem;
+}
+
+.modal-text {
+  height: 100%;
+  padding: 0 10%;
+  background-color: white;
+  
+}
+
+.modal-btn-left {
+  float: left;
+  left: 30px;
+}
+.modal-btn-right {
+  float: right;
+  right: 30px;
+}
+
+
+.contain-modal-btn {
+  padding-top: 50px;
+  width: 70%;
+  margin: auto;
+  
+}
+
+
+.list-style {
+  width: 90%;
+ 
+}
+.list-style:hover {
+  background-color: rgb(238, 236, 236);
+  cursor: pointer;
+}
+
+.new-form {
+  text-align: center;
+  transform: scale(1.1);
+}
+
+.user-details {
+  height: 50px;
+  width: 70%;
+  margin: auto;
+  font-size: 1.2rem;
+}
+
+
+
+.user-no-details {
+  margin: 0 50px 50px 50px;
+  padding-top: 100px;
+  line-height: 30px;
+}
+
+
+.user-details-container {
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+.modal-btn-back {
+position: absolute;
+top: 10px;
+margin-left: 40px;
+
+}
